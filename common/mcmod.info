@@ -1,11 +1,11 @@
 [
 {
-  "modid": "LostAges",
-  "name": "Lost Ages",
-  "description": "Adds biomes, dimensions and other cool things!",
+  "modid": "minescape",
+  "name": "MineScape",
+  "description": "Runescape in Minecraft!",
   "version": "@VERSION@",
-  "credits": "People :P",
+  "credits": "Currently just me xD",
   "mcversion": "@MCVERSION@",
-  "authors": ["xLithiumIon", "Blfngl", "ExperienceBar", "GamingTutsDK"],
+  "authors": ["GamingTutsDK", "SeeIAmDead"],
 }
 ]
