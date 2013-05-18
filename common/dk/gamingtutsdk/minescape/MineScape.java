@@ -58,8 +58,8 @@ public class MineScape
 	{	
 		Items.init();
 		
-		Blocks.init();		
-		
+		Blocks.init();	
+				
 		GameRegistry.addBiome(Wasteland);
 	}
 	
