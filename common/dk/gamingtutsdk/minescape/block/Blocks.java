@@ -19,9 +19,10 @@ import dk.gamingtutsdk.minescape.lib.BlockStrings;
 public class Blocks 
 {
 	//Ores
-	public static Block oreMined;
 	public static Block oreCopper;
+	public static Block minedCopper;
 	public static Block oreTin;
+	public static Block minedTin;
 	public static Block oreAdamant;
 		
 	//Decoration
@@ -35,9 +36,10 @@ public class Blocks
 	public static void init()
 	{
 		//Ores
-		oreMined = new MineScapeOre(BlockIDs.ORE_MINED, Material.rock).setStepSound(Block.soundStoneFootstep).setUnlocalizedName(BlockStrings.ORE_MINED_NAME).setBlockUnbreakable().setResistance(5.0F);
 		oreCopper = new MineScapeOre(BlockIDs.ORE_COPPER, Material.rock).setStepSound(Block.soundStoneFootstep).setUnlocalizedName(BlockStrings.ORE_COPPER_NAME).setHardness(2.0F).setResistance(5.0F);
+		minedCopper = new MineScapeMinedOre(BlockIDs.MINED_COPPER, Material.rock).setStepSound(Block.soundStoneFootstep).setUnlocalizedName(BlockStrings.MINED_COPPER_NAME).setBlockUnbreakable().setResistance(5.0F);
 		oreTin = new MineScapeOre(BlockIDs.ORE_TIN, Material.rock).setStepSound(Block.soundStoneFootstep).setUnlocalizedName(BlockStrings.ORE_TIN_NAME).setHardness(1.5F).setResistance(5.0F);
+		minedTin = new MineScapeMinedOre(BlockIDs.MINED_TIN, Material.rock).setStepSound(Block.soundStoneFootstep).setUnlocalizedName(BlockStrings.MINED_COPPER_NAME).setBlockUnbreakable().setResistance(5.0F);
 		oreAdamant = new MineScapeOre(BlockIDs.ORE_ADAMANT, Material.rock).setStepSound(Block.soundStoneFootstep).setUnlocalizedName(BlockStrings.ORE_ADAMANT_NAME).setHardness(3.0F).setResistance(5.0F);
 
 		//Decoration TODO
@@ -47,9 +49,10 @@ public class Blocks
 		furnace = new MineScapeFurnace(BlockIDs.FURNACE, Material.rock).setHardness(3.5F).setStepSound(Block.soundStoneFootstep).setLightValue(1F).setUnlocalizedName(BlockStrings.FURNACE_NAME);
 		
 		//Ores
-		GameRegistry.registerBlock(oreMined);
 		GameRegistry.registerBlock(oreCopper);
+		GameRegistry.registerBlock(minedCopper);
 		GameRegistry.registerBlock(oreTin);
+		GameRegistry.registerBlock(minedTin);
 		GameRegistry.registerBlock(oreAdamant);
 		
 		//Decoration
@@ -58,7 +61,6 @@ public class Blocks
 		GameRegistry.registerBlock(furnace);
 		
 		//Register ores
-		OreDictionary.registerOre("oreMined", oreMined);
 		OreDictionary.registerOre("oreCopper", oreCopper);
 		OreDictionary.registerOre("oreTin", oreTin);
 		OreDictionary.registerOre("oreAdamant", oreAdamant);
@@ -66,9 +68,10 @@ public class Blocks
 		//NAMES==========================================================================================================================================
 	
 		//Ores
-		LanguageRegistry.addName(oreMined, BlockStrings.ORE_MINED_TRANSNAME);
 		LanguageRegistry.addName(oreCopper, BlockStrings.ORE_COPPER_TRANSNAME);
+		LanguageRegistry.addName(minedCopper, BlockStrings.MINED_COPPER_TRANSNAME);
 		LanguageRegistry.addName(oreTin, BlockStrings.ORE_TIN_TRANSNAME);
+		LanguageRegistry.addName(minedTin, BlockStrings.MINED_TIN_TRANSNAME);
 		LanguageRegistry.addName(oreAdamant, BlockStrings.ORE_ADAMANT_TRANSNAME);
 
 		

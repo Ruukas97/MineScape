@@ -10,6 +10,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import dk.gamingtutsdk.minescape.lib.ItemIDs;
 import dk.gamingtutsdk.minescape.lib.ItemStrings;
+import dk.gamingtutsdk.minescape.lib.MineScapeMaterials;
 
 public class Items {	
 	//ITEMS==================================================================================================================================
@@ -153,116 +154,116 @@ public class Items {
 		//WEAPONS------------------------------------------------------------------------------------------------------------------------------
 		
 		//Bronze Melee Weapons
-		daggerBronze = new MineScapeDagger(ItemIDs.BRONZE_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_DAGGER_NAME);
-		hatchetBronze = new MineScapeHatchet(ItemIDs.BRONZE_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_HATCHET_NAME);
-		maceBronze = new MineScapeMace(ItemIDs.BRONZE_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_MACE_NAME);
-		swordBronze = new MineScapeSword(ItemIDs.BRONZE_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_SWORD_NAME);
-		pickaxeBronze = new MineScapePickaxe(ItemIDs.BRONZE_PICKAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_PICKAXE_NAME);
-		scimitarBronze = new MineScapeScimitar(ItemIDs.BRONZE_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_SCIMITAR_NAME);
-		longswordBronze = new MineScapeLongsword(ItemIDs.BRONZE_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_LONGSWORD_NAME);
-		warhammerBronze = new MineScapeWarhammer(ItemIDs.BRONZE_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_WARHAMMER_NAME);
-		battleaxeBronze = new MineScapeBattleaxe(ItemIDs.BRONZE_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_BATTLEAXE_NAME);
-		clawsBronze = new MineScapeClaws(ItemIDs.BRONZE_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_CLAWS_NAME);
-		twoHBronze = new MineScapeTwoHSword(ItemIDs.BRONZE_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BRONZE_TWOH_NAME);
+		daggerBronze = new MineScapeDagger(ItemIDs.BRONZE_DAGGER, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_DAGGER_NAME);
+		hatchetBronze = new MineScapeHatchet(ItemIDs.BRONZE_HATCHET, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_HATCHET_NAME);
+		maceBronze = new MineScapeMace(ItemIDs.BRONZE_MACE, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_MACE_NAME);
+		swordBronze = new MineScapeSword(ItemIDs.BRONZE_SWORD, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_SWORD_NAME);
+		pickaxeBronze = new MineScapePickaxe(ItemIDs.BRONZE_PICKAXE, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_PICKAXE_NAME);
+		scimitarBronze = new MineScapeScimitar(ItemIDs.BRONZE_SCIMITAR, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_SCIMITAR_NAME);
+		longswordBronze = new MineScapeLongsword(ItemIDs.BRONZE_LONGSWORD, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_LONGSWORD_NAME);
+		warhammerBronze = new MineScapeWarhammer(ItemIDs.BRONZE_WARHAMMER, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_WARHAMMER_NAME);
+		battleaxeBronze = new MineScapeBattleaxe(ItemIDs.BRONZE_BATTLEAXE, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_BATTLEAXE_NAME);
+		clawsBronze = new MineScapeClaws(ItemIDs.BRONZE_CLAWS, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_CLAWS_NAME);
+		twoHBronze = new MineScapeTwoHSword(ItemIDs.BRONZE_TWOH, MineScapeMaterials.BRONZE).setUnlocalizedName(ItemStrings.BRONZE_TWOH_NAME);
 		
 		//Iron Melee Weapons
-		daggerIron = new MineScapeDagger(ItemIDs.IRON_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_DAGGER_NAME);
-		hatchetIron = new MineScapeHatchet(ItemIDs.IRON_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_HATCHET_NAME);
-		maceIron = new MineScapeMace(ItemIDs.IRON_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_MACE_NAME);
-		swordIron = new MineScapeSword(ItemIDs.IRON_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_SWORD_NAME);
-		pickaxeIron = new MineScapePickaxe(ItemIDs.IRON_PICKAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_PICKAXE_NAME);
-		scimitarIron = new MineScapeScimitar(ItemIDs.IRON_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_SCIMITAR_NAME);
-		longswordIron = new MineScapeLongsword(ItemIDs.IRON_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_LONGSWORD_NAME);
-		warhammerIron = new MineScapeWarhammer(ItemIDs.IRON_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_WARHAMMER_NAME);
-		battleaxeIron = new MineScapeBattleaxe(ItemIDs.IRON_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_BATTLEAXE_NAME);
-		clawsIron = new MineScapeClaws(ItemIDs.IRON_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_CLAWS_NAME);
-		twoHIron = new MineScapeTwoHSword(ItemIDs.IRON_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.IRON_TWOH_NAME);
+		daggerIron = new MineScapeDagger(ItemIDs.IRON_DAGGER, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_DAGGER_NAME);
+		hatchetIron = new MineScapeHatchet(ItemIDs.IRON_HATCHET, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_HATCHET_NAME);
+		maceIron = new MineScapeMace(ItemIDs.IRON_MACE, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_MACE_NAME);
+		swordIron = new MineScapeSword(ItemIDs.IRON_SWORD, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_SWORD_NAME);
+		pickaxeIron = new MineScapePickaxe(ItemIDs.IRON_PICKAXE, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_PICKAXE_NAME);
+		scimitarIron = new MineScapeScimitar(ItemIDs.IRON_SCIMITAR, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_SCIMITAR_NAME);
+		longswordIron = new MineScapeLongsword(ItemIDs.IRON_LONGSWORD, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_LONGSWORD_NAME);
+		warhammerIron = new MineScapeWarhammer(ItemIDs.IRON_WARHAMMER, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_WARHAMMER_NAME);
+		battleaxeIron = new MineScapeBattleaxe(ItemIDs.IRON_BATTLEAXE, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_BATTLEAXE_NAME);
+		clawsIron = new MineScapeClaws(ItemIDs.IRON_CLAWS, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_CLAWS_NAME);
+		twoHIron = new MineScapeTwoHSword(ItemIDs.IRON_TWOH, MineScapeMaterials.IRON).setUnlocalizedName(ItemStrings.IRON_TWOH_NAME);
 		
 		//Steel Melee Weapons
-		daggerSteel = new MineScapeDagger(ItemIDs.STEEL_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_DAGGER_NAME);
-		hatchetSteel = new MineScapeHatchet(ItemIDs.STEEL_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_HATCHET_NAME);
-		maceSteel = new MineScapeMace(ItemIDs.STEEL_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_MACE_NAME);
-		swordSteel = new MineScapeSword(ItemIDs.STEEL_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_SWORD_NAME);
-		pickaxeSteel = new MineScapePickaxe(ItemIDs.STEEL_PICKAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_PICKAXE_NAME);
-		scimitarSteel = new MineScapeScimitar(ItemIDs.STEEL_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_SCIMITAR_NAME);
-		longswordSteel = new MineScapeLongsword(ItemIDs.STEEL_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_LONGSWORD_NAME);
-		warhammerSteel = new MineScapeWarhammer(ItemIDs.STEEL_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_WARHAMMER_NAME);
-		battleaxeSteel = new MineScapeBattleaxe(ItemIDs.STEEL_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_BATTLEAXE_NAME);
-		clawsSteel = new MineScapeClaws(ItemIDs.STEEL_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_CLAWS_NAME);
-		twoHSteel = new MineScapeTwoHSword(ItemIDs.STEEL_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.STEEL_TWOH_NAME);
+		daggerSteel = new MineScapeDagger(ItemIDs.STEEL_DAGGER, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_DAGGER_NAME);
+		hatchetSteel = new MineScapeHatchet(ItemIDs.STEEL_HATCHET, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_HATCHET_NAME);
+		maceSteel = new MineScapeMace(ItemIDs.STEEL_MACE, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_MACE_NAME);
+		swordSteel = new MineScapeSword(ItemIDs.STEEL_SWORD, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_SWORD_NAME);
+		pickaxeSteel = new MineScapePickaxe(ItemIDs.STEEL_PICKAXE, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_PICKAXE_NAME);
+		scimitarSteel = new MineScapeScimitar(ItemIDs.STEEL_SCIMITAR, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_SCIMITAR_NAME);
+		longswordSteel = new MineScapeLongsword(ItemIDs.STEEL_LONGSWORD, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_LONGSWORD_NAME);
+		warhammerSteel = new MineScapeWarhammer(ItemIDs.STEEL_WARHAMMER, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_WARHAMMER_NAME);
+		battleaxeSteel = new MineScapeBattleaxe(ItemIDs.STEEL_BATTLEAXE, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_BATTLEAXE_NAME);
+		clawsSteel = new MineScapeClaws(ItemIDs.STEEL_CLAWS, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_CLAWS_NAME);
+		twoHSteel = new MineScapeTwoHSword(ItemIDs.STEEL_TWOH, MineScapeMaterials.STEEL).setUnlocalizedName(ItemStrings.STEEL_TWOH_NAME);
 		
 		//Black Melee Weapons
-		daggerBlack = new MineScapeDagger(ItemIDs.BLACK_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_DAGGER_NAME);
-		hatchetBlack = new MineScapeHatchet(ItemIDs.BLACK_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_HATCHET_NAME);
-		maceBlack = new MineScapeMace(ItemIDs.BLACK_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_MACE_NAME);
-		swordBlack = new MineScapeSword(ItemIDs.BLACK_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_SWORD_NAME);
-		scimitarBlack = new MineScapeScimitar(ItemIDs.BLACK_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_SCIMITAR_NAME);
-		longswordBlack = new MineScapeLongsword(ItemIDs.BLACK_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_LONGSWORD_NAME);
-		warhammerBlack = new MineScapeWarhammer(ItemIDs.BLACK_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_WARHAMMER_NAME);
-		battleaxeBlack = new MineScapeBattleaxe(ItemIDs.BLACK_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_BATTLEAXE_NAME);
-		clawsBlack = new MineScapeClaws(ItemIDs.BLACK_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_CLAWS_NAME);
-		twoHBlack = new MineScapeTwoHSword(ItemIDs.BLACK_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.BLACK_TWOH_NAME);
+		daggerBlack = new MineScapeDagger(ItemIDs.BLACK_DAGGER, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_DAGGER_NAME);
+		hatchetBlack = new MineScapeHatchet(ItemIDs.BLACK_HATCHET, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_HATCHET_NAME);
+		maceBlack = new MineScapeMace(ItemIDs.BLACK_MACE, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_MACE_NAME);
+		swordBlack = new MineScapeSword(ItemIDs.BLACK_SWORD, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_SWORD_NAME);
+		scimitarBlack = new MineScapeScimitar(ItemIDs.BLACK_SCIMITAR, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_SCIMITAR_NAME);
+		longswordBlack = new MineScapeLongsword(ItemIDs.BLACK_LONGSWORD, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_LONGSWORD_NAME);
+		warhammerBlack = new MineScapeWarhammer(ItemIDs.BLACK_WARHAMMER, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_WARHAMMER_NAME);
+		battleaxeBlack = new MineScapeBattleaxe(ItemIDs.BLACK_BATTLEAXE, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_BATTLEAXE_NAME);
+		clawsBlack = new MineScapeClaws(ItemIDs.BLACK_CLAWS, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_CLAWS_NAME);
+		twoHBlack = new MineScapeTwoHSword(ItemIDs.BLACK_TWOH, MineScapeMaterials.BLACK).setUnlocalizedName(ItemStrings.BLACK_TWOH_NAME);
 		
 		//White Melee Weapons
-		daggerWhite = new MineScapeDagger(ItemIDs.WHITE_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_DAGGER_NAME);
-		maceWhite = new MineScapeMace(ItemIDs.WHITE_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_MACE_NAME);
-		swordWhite = new MineScapeSword(ItemIDs.WHITE_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_SWORD_NAME);
-		scimitarWhite = new MineScapeScimitar(ItemIDs.WHITE_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_SCIMITAR_NAME);
-		longswordWhite = new MineScapeLongsword(ItemIDs.WHITE_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_LONGSWORD_NAME);
-		warhammerWhite = new MineScapeWarhammer(ItemIDs.WHITE_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_WARHAMMER_NAME);
-		battleaxeWhite = new MineScapeBattleaxe(ItemIDs.WHITE_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_BATTLEAXE_NAME);
-		clawsWhite = new MineScapeClaws(ItemIDs.WHITE_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_CLAWS_NAME);
-		twoHWhite = new MineScapeTwoHSword(ItemIDs.WHITE_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.WHITE_TWOH_NAME);
+		daggerWhite = new MineScapeDagger(ItemIDs.WHITE_DAGGER, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_DAGGER_NAME);
+		maceWhite = new MineScapeMace(ItemIDs.WHITE_MACE, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_MACE_NAME);
+		swordWhite = new MineScapeSword(ItemIDs.WHITE_SWORD, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_SWORD_NAME);
+		scimitarWhite = new MineScapeScimitar(ItemIDs.WHITE_SCIMITAR, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_SCIMITAR_NAME);
+		longswordWhite = new MineScapeLongsword(ItemIDs.WHITE_LONGSWORD, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_LONGSWORD_NAME);
+		warhammerWhite = new MineScapeWarhammer(ItemIDs.WHITE_WARHAMMER, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_WARHAMMER_NAME);
+		battleaxeWhite = new MineScapeBattleaxe(ItemIDs.WHITE_BATTLEAXE, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_BATTLEAXE_NAME);
+		clawsWhite = new MineScapeClaws(ItemIDs.WHITE_CLAWS, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_CLAWS_NAME);
+		twoHWhite = new MineScapeTwoHSword(ItemIDs.WHITE_TWOH, MineScapeMaterials.WHITE).setUnlocalizedName(ItemStrings.WHITE_TWOH_NAME);
 		
 		//Mithril Melee Weapons
-		daggerMithril = new MineScapeDagger(ItemIDs.MITHRIL_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_DAGGER_NAME);
-		hatchetMithril = new MineScapeHatchet(ItemIDs.MITHRIL_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_HATCHET_NAME);
-		maceMithril = new MineScapeMace(ItemIDs.MITHRIL_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_MACE_NAME);
-		swordMithril = new MineScapeSword(ItemIDs.MITHRIL_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_SWORD_NAME);
-		pickaxeMithril = new MineScapePickaxe(ItemIDs.MITHRIL_PICKAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_PICKAXE_NAME);
-		scimitarMithril = new MineScapeScimitar(ItemIDs.MITHRIL_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_SCIMITAR_NAME);
-		longswordMithril = new MineScapeLongsword(ItemIDs.MITHRIL_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_LONGSWORD_NAME);
-		warhammerMithril = new MineScapeWarhammer(ItemIDs.MITHRIL_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_WARHAMMER_NAME);
-		battleaxeMithril = new MineScapeBattleaxe(ItemIDs.MITHRIL_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_BATTLEAXE_NAME);
-		clawsMithril = new MineScapeClaws(ItemIDs.MITHRIL_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_CLAWS_NAME);
-		twoHMithril = new MineScapeTwoHSword(ItemIDs.MITHRIL_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.MITHRIL_TWOH_NAME);
+		daggerMithril = new MineScapeDagger(ItemIDs.MITHRIL_DAGGER, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_DAGGER_NAME);
+		hatchetMithril = new MineScapeHatchet(ItemIDs.MITHRIL_HATCHET, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_HATCHET_NAME);
+		maceMithril = new MineScapeMace(ItemIDs.MITHRIL_MACE, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_MACE_NAME);
+		swordMithril = new MineScapeSword(ItemIDs.MITHRIL_SWORD, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_SWORD_NAME);
+		pickaxeMithril = new MineScapePickaxe(ItemIDs.MITHRIL_PICKAXE, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_PICKAXE_NAME);
+		scimitarMithril = new MineScapeScimitar(ItemIDs.MITHRIL_SCIMITAR, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_SCIMITAR_NAME);
+		longswordMithril = new MineScapeLongsword(ItemIDs.MITHRIL_LONGSWORD, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_LONGSWORD_NAME);
+		warhammerMithril = new MineScapeWarhammer(ItemIDs.MITHRIL_WARHAMMER, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_WARHAMMER_NAME);
+		battleaxeMithril = new MineScapeBattleaxe(ItemIDs.MITHRIL_BATTLEAXE, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_BATTLEAXE_NAME);
+		clawsMithril = new MineScapeClaws(ItemIDs.MITHRIL_CLAWS, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_CLAWS_NAME);
+		twoHMithril = new MineScapeTwoHSword(ItemIDs.MITHRIL_TWOH, MineScapeMaterials.MITHRIL).setUnlocalizedName(ItemStrings.MITHRIL_TWOH_NAME);
 		
 		//Adamant Melee Weapons
-		daggerAdamant = new MineScapeDagger(ItemIDs.ADAMANT_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_DAGGER_NAME);
-		hatchetAdamant = new MineScapeHatchet(ItemIDs.ADAMANT_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_HATCHET_NAME);
-		maceAdamant = new MineScapeMace(ItemIDs.ADAMANT_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_MACE_NAME);
-		swordAdamant = new MineScapeSword(ItemIDs.ADAMANT_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_SWORD_NAME);
-		pickaxeAdamant = new MineScapePickaxe(ItemIDs.ADAMANT_PICKAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_PICKAXE_NAME);
-		scimitarAdamant = new MineScapeScimitar(ItemIDs.ADAMANT_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_SCIMITAR_NAME);
-		longswordAdamant = new MineScapeLongsword(ItemIDs.ADAMANT_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_LONGSWORD_NAME);
-		warhammerAdamant = new MineScapeWarhammer(ItemIDs.ADAMANT_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_WARHAMMER_NAME);
-		battleaxeAdamant = new MineScapeBattleaxe(ItemIDs.ADAMANT_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_BATTLEAXE_NAME);
-		clawsAdamant = new MineScapeClaws(ItemIDs.ADAMANT_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_CLAWS_NAME);
-		twoHAdamant = new MineScapeTwoHSword(ItemIDs.ADAMANT_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.ADAMANT_TWOH_NAME);
+		daggerAdamant = new MineScapeDagger(ItemIDs.ADAMANT_DAGGER, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_DAGGER_NAME);
+		hatchetAdamant = new MineScapeHatchet(ItemIDs.ADAMANT_HATCHET, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_HATCHET_NAME);
+		maceAdamant = new MineScapeMace(ItemIDs.ADAMANT_MACE, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_MACE_NAME);
+		swordAdamant = new MineScapeSword(ItemIDs.ADAMANT_SWORD, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_SWORD_NAME);
+		pickaxeAdamant = new MineScapePickaxe(ItemIDs.ADAMANT_PICKAXE, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_PICKAXE_NAME);
+		scimitarAdamant = new MineScapeScimitar(ItemIDs.ADAMANT_SCIMITAR, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_SCIMITAR_NAME);
+		longswordAdamant = new MineScapeLongsword(ItemIDs.ADAMANT_LONGSWORD, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_LONGSWORD_NAME);
+		warhammerAdamant = new MineScapeWarhammer(ItemIDs.ADAMANT_WARHAMMER, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_WARHAMMER_NAME);
+		battleaxeAdamant = new MineScapeBattleaxe(ItemIDs.ADAMANT_BATTLEAXE, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_BATTLEAXE_NAME);
+		clawsAdamant = new MineScapeClaws(ItemIDs.ADAMANT_CLAWS, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_CLAWS_NAME);
+		twoHAdamant = new MineScapeTwoHSword(ItemIDs.ADAMANT_TWOH, MineScapeMaterials.ADAMANT).setUnlocalizedName(ItemStrings.ADAMANT_TWOH_NAME);
 		
 		//Rune Melee Weapons
-		daggerRune = new MineScapeDagger(ItemIDs.RUNE_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_DAGGER_NAME);
-		hatchetRune = new MineScapeHatchet(ItemIDs.RUNE_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_HATCHET_NAME);
-		maceRune = new MineScapeMace(ItemIDs.RUNE_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_MACE_NAME);
-		swordRune = new MineScapeSword(ItemIDs.RUNE_SWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_SWORD_NAME);
-		pickaxeRune = new MineScapePickaxe(ItemIDs.RUNE_PICKAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_PICKAXE_NAME);
-		scimitarRune = new MineScapeScimitar(ItemIDs.RUNE_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_SCIMITAR_NAME);
-		longswordRune = new MineScapeLongsword(ItemIDs.RUNE_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_LONGSWORD_NAME);
-		warhammerRune = new MineScapeWarhammer(ItemIDs.RUNE_WARHAMMER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_WARHAMMER_NAME);
-		battleaxeRune = new MineScapeBattleaxe(ItemIDs.RUNE_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_BATTLEAXE_NAME);
-		clawsRune = new MineScapeClaws(ItemIDs.RUNE_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_CLAWS_NAME);
-		twoHRune = new MineScapeTwoHSword(ItemIDs.RUNE_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.RUNE_TWOH_NAME);
+		daggerRune = new MineScapeDagger(ItemIDs.RUNE_DAGGER, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_DAGGER_NAME);
+		hatchetRune = new MineScapeHatchet(ItemIDs.RUNE_HATCHET, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_HATCHET_NAME);
+		maceRune = new MineScapeMace(ItemIDs.RUNE_MACE, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_MACE_NAME);
+		swordRune = new MineScapeSword(ItemIDs.RUNE_SWORD, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_SWORD_NAME);
+		pickaxeRune = new MineScapePickaxe(ItemIDs.RUNE_PICKAXE, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_PICKAXE_NAME);
+		scimitarRune = new MineScapeScimitar(ItemIDs.RUNE_SCIMITAR, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_SCIMITAR_NAME);
+		longswordRune = new MineScapeLongsword(ItemIDs.RUNE_LONGSWORD, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_LONGSWORD_NAME);
+		warhammerRune = new MineScapeWarhammer(ItemIDs.RUNE_WARHAMMER, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_WARHAMMER_NAME);
+		battleaxeRune = new MineScapeBattleaxe(ItemIDs.RUNE_BATTLEAXE, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_BATTLEAXE_NAME);
+		clawsRune = new MineScapeClaws(ItemIDs.RUNE_CLAWS, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_CLAWS_NAME);
+		twoHRune = new MineScapeTwoHSword(ItemIDs.RUNE_TWOH, MineScapeMaterials.RUNE).setUnlocalizedName(ItemStrings.RUNE_TWOH_NAME);
 		
 		//Dragon Melee Weapons
-		daggerDragon = new MineScapeDagger(ItemIDs.DRAGON_DAGGER, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_DAGGER_NAME);
-		hatchetDragon = new MineScapeHatchet(ItemIDs.DRAGON_HATCHET, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_HATCHET_NAME);
-		maceDragon = new MineScapeMace(ItemIDs.DRAGON_MACE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_MACE_NAME);
-		pickaxeDragon = new MineScapePickaxe(ItemIDs.DRAGON_PICKAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_PICKAXE_NAME);
-		scimitarDragon = new MineScapeScimitar(ItemIDs.DRAGON_SCIMITAR, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_SCIMITAR_NAME);
-		longswordDragon = new MineScapeLongsword(ItemIDs.DRAGON_LONGSWORD, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_LONGSWORD_NAME);
-		battleaxeDragon = new MineScapeBattleaxe(ItemIDs.DRAGON_BATTLEAXE, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_BATTLEAXE_NAME);
-		clawsDragon = new MineScapeClaws(ItemIDs.DRAGON_CLAWS, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_CLAWS_NAME);
-		twoHDragon = new MineScapeTwoHSword(ItemIDs.DRAGON_TWOH, EnumToolMaterial.IRON).setUnlocalizedName(ItemStrings.DRAGON_TWOH_NAME);
+		daggerDragon = new MineScapeDagger(ItemIDs.DRAGON_DAGGER, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_DAGGER_NAME);
+		hatchetDragon = new MineScapeHatchet(ItemIDs.DRAGON_HATCHET, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_HATCHET_NAME);
+		maceDragon = new MineScapeMace(ItemIDs.DRAGON_MACE, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_MACE_NAME);
+		pickaxeDragon = new MineScapePickaxe(ItemIDs.DRAGON_PICKAXE, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_PICKAXE_NAME);
+		scimitarDragon = new MineScapeScimitar(ItemIDs.DRAGON_SCIMITAR, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_SCIMITAR_NAME);
+		longswordDragon = new MineScapeLongsword(ItemIDs.DRAGON_LONGSWORD, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_LONGSWORD_NAME);
+		battleaxeDragon = new MineScapeBattleaxe(ItemIDs.DRAGON_BATTLEAXE, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_BATTLEAXE_NAME);
+		clawsDragon = new MineScapeClaws(ItemIDs.DRAGON_CLAWS, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_CLAWS_NAME);
+		twoHDragon = new MineScapeTwoHSword(ItemIDs.DRAGON_TWOH, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_TWOH_NAME);
 		
 		//Item Names============================================================================================================================
 		

@@ -19,17 +19,31 @@ public class MineScapeMinedOre extends Block
 	public MineScapeMinedOre(int ID, Material material) 
 	{
 		super(ID, material);
-		setCreativeTab(MineScape.tabMineScapeBlocks);
+		setTickRandomly(true);
+		setBlockUnbreakable();
 	}
-
-    public int idDropped(int par1, Random par2Random, int par3)
+    
+    public int tickRate(World par1World)
     {
-        return this.blockID == Blocks.oreCopper.blockID ? Items.oreCopper.itemID : (this.blockID == Blocks.oreTin.blockID ? Items.oreTin.itemID : this.blockID);
+        return 1;
     }
-	
+        
+    public void updateTick(World world, int x, int y, int z, Random random)
+    {
+        if (this.blockID == Blocks.minedCopper.blockID)
+        {
+           	world.setBlock(x, y, z, Blocks.oreCopper.blockID);
+        }
+        else if (this.blockID == Blocks.minedTin.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreTin.blockID);
+        }
+    }
+    
 	@Override
 	public void registerIcons(IconRegister iconRegister) 
 	{
-		blockIcon = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+		//blockIcon = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+		blockIcon = iconRegister.registerIcon("stone");
 	}
 }

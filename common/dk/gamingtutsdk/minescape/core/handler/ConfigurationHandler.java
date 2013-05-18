@@ -148,9 +148,10 @@ public class ConfigurationHandler {
 			//BLOCKS========================================================================================================================
 			
 			//Ores
-			BlockIDs.ORE_MINED = config.getBlock(BlockStrings.ORE_MINED_TRANSNAME, BlockIDs.ORE_MINED_DEFAULT).getInt();
 			BlockIDs.ORE_COPPER = config.getBlock(BlockStrings.ORE_COPPER_TRANSNAME, BlockIDs.ORE_COPPER_DEFAULT).getInt();
+			BlockIDs.MINED_COPPER = config.getBlock(BlockStrings.MINED_COPPER_TRANSNAME, BlockIDs.MINED_COPPER_DEFAULT).getInt();
 			BlockIDs.ORE_TIN = config.getBlock(BlockStrings.ORE_TIN_TRANSNAME, BlockIDs.ORE_TIN_DEFAULT).getInt();
+			BlockIDs.MINED_TIN = config.getBlock(BlockStrings.MINED_TIN_TRANSNAME, BlockIDs.MINED_TIN_DEFAULT).getInt();
 			BlockIDs.ORE_ADAMANT = config.getBlock(BlockStrings.ORE_ADAMANT_TRANSNAME, BlockIDs.ORE_ADAMANT_DEFAULT).getInt();
 			
 			//Decoration
