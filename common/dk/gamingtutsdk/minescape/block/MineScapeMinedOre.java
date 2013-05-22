@@ -38,6 +38,34 @@ public class MineScapeMinedOre extends Block
         {
             world.setBlock(x, y, z, Blocks.oreTin.blockID);
         }
+        else if (this.blockID == Blocks.minedIron.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreIron.blockID);
+        }
+        else if (this.blockID == Blocks.minedSilver.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreSilver.blockID);
+        }
+        else if (this.blockID == Blocks.minedCoal.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreCoal.blockID);
+        }
+        else if (this.blockID == Blocks.minedGold.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreGold.blockID);
+        }
+        else if (this.blockID == Blocks.minedMithril.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreMithril.blockID);
+        }
+        else if (this.blockID == Blocks.minedAdamant.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreAdamant.blockID);
+        }
+        else if (this.blockID == Blocks.minedRune.blockID)
+        {
+            world.setBlock(x, y, z, Blocks.oreRune.blockID);
+        }
     }
     
 	@Override

@@ -25,10 +25,24 @@ public class ConfigurationHandler {
 			//Ores
 			ItemIDs.COPPER_ORE = config.getItem(ItemStrings.COPPER_ORE_TRANSNAME, ItemIDs.COPPER_ORE_DEFAULT).getInt();
 			ItemIDs.TIN_ORE = config.getItem(ItemStrings.TIN_ORE_TRANSNAME, ItemIDs.TIN_ORE_DEFAULT).getInt();
-			
-			//Ingots
+			ItemIDs.IRON_ORE = config.getItem(ItemStrings.IRON_ORE_TRANSNAME, ItemIDs.IRON_ORE_DEFAULT).getInt();
+			ItemIDs.SILVER_ORE = config.getItem(ItemStrings.SILVER_ORE_TRANSNAME, ItemIDs.SILVER_ORE_DEFAULT).getInt();
+			ItemIDs.COAL_ORE = config.getItem(ItemStrings.COAL_ORE_TRANSNAME, ItemIDs.COAL_ORE_DEFAULT).getInt();
+			ItemIDs.GOLD_ORE = config.getItem(ItemStrings.GOLD_ORE_TRANSNAME, ItemIDs.GOLD_ORE_DEFAULT).getInt();
+			ItemIDs.MITHRIL_ORE = config.getItem(ItemStrings.MITHRIL_ORE_TRANSNAME, ItemIDs.MITHRIL_ORE_DEFAULT).getInt();
+			ItemIDs.ADAMANT_ORE = config.getItem(ItemStrings.ADAMANT_ORE_TRANSNAME, ItemIDs.ADAMANT_ORE_DEFAULT).getInt();
+			ItemIDs.RUNE_ORE = config.getItem(ItemStrings.RUNE_ORE_TRANSNAME, ItemIDs.RUNE_ORE_DEFAULT).getInt();
+
+			//Bars
 			ItemIDs.BRONZE_BAR = config.getItem(ItemStrings.BRONZE_BAR_TRANSNAME, ItemIDs.BRONZE_BAR_DEFAULT).getInt();
-			
+			ItemIDs.IRON_BAR = config.getItem(ItemStrings.IRON_BAR_TRANSNAME, ItemIDs.IRON_BAR_DEFAULT).getInt();
+			ItemIDs.SILVER_BAR = config.getItem(ItemStrings.SILVER_BAR_TRANSNAME, ItemIDs.SILVER_BAR_DEFAULT).getInt();
+			ItemIDs.STEEL_BAR = config.getItem(ItemStrings.STEEL_BAR_TRANSNAME, ItemIDs.STEEL_BAR_DEFAULT).getInt();
+			ItemIDs.GOLD_BAR = config.getItem(ItemStrings.GOLD_BAR_TRANSNAME, ItemIDs.GOLD_BAR_DEFAULT).getInt();
+			ItemIDs.MITHRIL_BAR = config.getItem(ItemStrings.MITHRIL_BAR_TRANSNAME, ItemIDs.MITHRIL_BAR_DEFAULT).getInt();
+			ItemIDs.ADAMANT_BAR = config.getItem(ItemStrings.ADAMANT_BAR_TRANSNAME, ItemIDs.ADAMANT_BAR_DEFAULT).getInt();
+			ItemIDs.RUNE_BAR = config.getItem(ItemStrings.RUNE_BAR_TRANSNAME, ItemIDs.RUNE_BAR_DEFAULT).getInt();
+
 			//WEAPONS---------------------------------------------------------------------------------------------------------------------
 			
 			//Bronze Melee Weapons
@@ -152,13 +166,26 @@ public class ConfigurationHandler {
 			BlockIDs.MINED_COPPER = config.getBlock(BlockStrings.MINED_COPPER_TRANSNAME, BlockIDs.MINED_COPPER_DEFAULT).getInt();
 			BlockIDs.ORE_TIN = config.getBlock(BlockStrings.ORE_TIN_TRANSNAME, BlockIDs.ORE_TIN_DEFAULT).getInt();
 			BlockIDs.MINED_TIN = config.getBlock(BlockStrings.MINED_TIN_TRANSNAME, BlockIDs.MINED_TIN_DEFAULT).getInt();
+			BlockIDs.ORE_IRON = config.getBlock(BlockStrings.ORE_IRON_TRANSNAME, BlockIDs.ORE_IRON_DEFAULT).getInt();
+			BlockIDs.MINED_IRON = config.getBlock(BlockStrings.MINED_IRON_TRANSNAME, BlockIDs.MINED_IRON_DEFAULT).getInt();
+			BlockIDs.ORE_SILVER = config.getBlock(BlockStrings.ORE_SILVER_TRANSNAME, BlockIDs.ORE_SILVER_DEFAULT).getInt();
+			BlockIDs.MINED_SILVER = config.getBlock(BlockStrings.MINED_SILVER_TRANSNAME, BlockIDs.MINED_SILVER_DEFAULT).getInt();
+			BlockIDs.ORE_COAL = config.getBlock(BlockStrings.ORE_COAL_TRANSNAME, BlockIDs.ORE_COAL_DEFAULT).getInt();
+			BlockIDs.MINED_COAL = config.getBlock(BlockStrings.MINED_COAL_TRANSNAME, BlockIDs.MINED_COAL_DEFAULT).getInt();
+			BlockIDs.ORE_GOLD = config.getBlock(BlockStrings.ORE_GOLD_TRANSNAME, BlockIDs.ORE_GOLD_DEFAULT).getInt();
+			BlockIDs.MINED_GOLD = config.getBlock(BlockStrings.MINED_GOLD_TRANSNAME, BlockIDs.MINED_GOLD_DEFAULT).getInt();
+			BlockIDs.ORE_MITHRIL = config.getBlock(BlockStrings.ORE_MITHRIL_TRANSNAME, BlockIDs.ORE_MITHRIL_DEFAULT).getInt();
+			BlockIDs.MINED_MITHRIL = config.getBlock(BlockStrings.MINED_MITHRIL_TRANSNAME, BlockIDs.MINED_MITHRIL_DEFAULT).getInt();
 			BlockIDs.ORE_ADAMANT = config.getBlock(BlockStrings.ORE_ADAMANT_TRANSNAME, BlockIDs.ORE_ADAMANT_DEFAULT).getInt();
+			BlockIDs.MINED_ADAMANT = config.getBlock(BlockStrings.MINED_ADAMANT_TRANSNAME, BlockIDs.MINED_ADAMANT_DEFAULT).getInt();
+			BlockIDs.ORE_RUNE = config.getBlock(BlockStrings.ORE_RUNE_TRANSNAME, BlockIDs.ORE_RUNE_DEFAULT).getInt();
+			BlockIDs.MINED_RUNE = config.getBlock(BlockStrings.MINED_RUNE_TRANSNAME, BlockIDs.MINED_RUNE_DEFAULT).getInt();
 			
 			//Decoration
 			
 			//Functional
 			BlockIDs.FURNACE = config.getBlock(BlockStrings.FURNACE_TRANSNAME, BlockIDs.FURNACE_DEFAULT).getInt();
-		
+			BlockIDs.ANVIL = config.getBlock(BlockStrings.ANVIL_TRANSNAME, BlockIDs.ANVIL_DEFAULT).getInt();
 		} catch(Exception e) {
 			LoggerHandler.log(Level.CONFIG, Reference.MOD_NAME + " has encountered a problem loading it's config!");
 		} finally {

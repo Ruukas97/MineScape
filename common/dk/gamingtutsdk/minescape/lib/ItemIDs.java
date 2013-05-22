@@ -11,15 +11,30 @@ public class ItemIDs
 	public static int ORES_DEFAULT = ID_DEFAULT;
 	public static int COPPER_ORE_DEFAULT = ORES_DEFAULT;
 	public static int TIN_ORE_DEFAULT = ORES_DEFAULT + 1;
+	public static int IRON_ORE_DEFAULT = ORES_DEFAULT + 2;
+	public static int SILVER_ORE_DEFAULT = ORES_DEFAULT + 4;
+	public static int COAL_ORE_DEFAULT = ORES_DEFAULT + 4;
+	public static int GOLD_ORE_DEFAULT = ORES_DEFAULT + 5;
+	public static int MITHRIL_ORE_DEFAULT = ORES_DEFAULT + 6;
+	public static int ADAMANT_ORE_DEFAULT = ORES_DEFAULT + 7;
+	public static int RUNE_ORE_DEFAULT = ORES_DEFAULT + 8;
 
 	//Bars
-	public static int BARS_DEFAULT = TIN_ORE_DEFAULT + 1;
+	public static int BARS_DEFAULT = RUNE_ORE_DEFAULT + 1;
 	public static int BRONZE_BAR_DEFAULT = BARS_DEFAULT;
+	public static int IRON_BAR_DEFAULT = BARS_DEFAULT + 1;
+	public static int SILVER_BAR_DEFAULT = BARS_DEFAULT + 2;
+	public static int STEEL_BAR_DEFAULT = BARS_DEFAULT + 3;
+	public static int GOLD_BAR_DEFAULT = BARS_DEFAULT + 4;
+	public static int MITHRIL_BAR_DEFAULT = BARS_DEFAULT + 5;
+	public static int ADAMANT_BAR_DEFAULT = BARS_DEFAULT + 6;
+	public static int RUNE_BAR_DEFAULT = BARS_DEFAULT + 7;
+
 	
 	//WEAPONS----------------------------------------------------------------------------------------------------------------------------
 	
 	//Bronze Melee Weapons
-	public static final int BRONZE_DEFAULT = BRONZE_BAR_DEFAULT + 1;
+	public static final int BRONZE_DEFAULT = RUNE_BAR_DEFAULT + 1;
 	public static final int BRONZE_DAGGER_DEFAULT = BRONZE_DEFAULT + 1;
 	public static final int BRONZE_HATCHET_DEFAULT = BRONZE_DEFAULT + 2;
 	public static final int BRONZE_MACE_DEFAULT = BRONZE_DEFAULT + 3;
@@ -147,9 +162,24 @@ public class ItemIDs
 	//Ores
 	public static int COPPER_ORE;
 	public static int TIN_ORE;
-	
+	public static int IRON_ORE;
+	public static int SILVER_ORE;
+	public static int COAL_ORE;
+	public static int GOLD_ORE;
+	public static int MITHRIL_ORE;
+	public static int ADAMANT_ORE;
+	public static int RUNE_ORE;
+
 	//Bars
 	public static int BRONZE_BAR;
+	public static int IRON_BAR;
+	public static int SILVER_BAR;
+	public static int STEEL_BAR;
+	public static int GOLD_BAR;
+	public static int MITHRIL_BAR;
+	public static int ADAMANT_BAR;
+	public static int RUNE_BAR;
+
 	
 	//WEAPONS---------------------------------------------------------------------------------------------------------------------------
 	//Bronze Melee Weapons

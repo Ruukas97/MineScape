@@ -10,9 +10,24 @@ public class ItemStrings
 	//Ores
 	public static final String COPPER_ORE_NAME = "oreCopper";
 	public static final String TIN_ORE_NAME = "oreTin";
-	
+	public static final String IRON_ORE_NAME = "oreIron";
+	public static final String SILVER_ORE_NAME = "oreSilver";
+	public static final String COAL_ORE_NAME = "oreCoal";
+	public static final String GOLD_ORE_NAME = "oreGold";
+	public static final String MITHRIL_ORE_NAME = "oreMithril";
+	public static final String ADAMANT_ORE_NAME = "oreAdamant";
+	public static final String RUNE_ORE_NAME = "oreRune";
+
 	//Bars
 	public static final String BRONZE_BAR_NAME = "barBronze";
+	public static final String IRON_BAR_NAME = "barIron";
+	public static final String SILVER_BAR_NAME = "barSilver";
+	public static final String STEEL_BAR_NAME = "barSteel";
+	public static final String GOLD_BAR_NAME = "barGold";
+	public static final String MITHRIL_BAR_NAME = "barMithril";
+	public static final String ADAMANT_BAR_NAME = "barAdamant";
+	public static final String RUNE_BAR_NAME = "barRune";
+
 	
 	//WEAPONS-------------------------------------------------------------------------------------------------------------------------------
 	//Bronze Melee Weapons
@@ -135,9 +150,23 @@ public class ItemStrings
 	//Ores
 	public static final String COPPER_ORE_TRANSNAME = "Copper Ore";
 	public static final String TIN_ORE_TRANSNAME = "Tin Ore";
-	
+	public static final String IRON_ORE_TRANSNAME = "Iron Ore";
+	public static final String SILVER_ORE_TRANSNAME = "Silver Ore";
+	public static final String COAL_ORE_TRANSNAME = "Coal Ore";
+	public static final String GOLD_ORE_TRANSNAME = "Gold Ore";
+	public static final String MITHRIL_ORE_TRANSNAME = "Mithril Ore";
+	public static final String ADAMANT_ORE_TRANSNAME = "Adamantite Ore";
+	public static final String RUNE_ORE_TRANSNAME = "Runite Ore";
+
 	//Bars
 	public static final String BRONZE_BAR_TRANSNAME = "Bronze Bar";
+	public static final String IRON_BAR_TRANSNAME = "Iron Bar";
+	public static final String SILVER_BAR_TRANSNAME = "Silver Bar";
+	public static final String STEEL_BAR_TRANSNAME = "Steel Bar";
+	public static final String GOLD_BAR_TRANSNAME = "Gold Bar";
+	public static final String MITHRIL_BAR_TRANSNAME = "Mithril Bar";
+	public static final String ADAMANT_BAR_TRANSNAME = "Adamant Bar";
+	public static final String RUNE_BAR_TRANSNAME = "Rune Bar";
 	
 	//WEAPONS---------------------------------------------------------------------------------------------------------------------------
 	

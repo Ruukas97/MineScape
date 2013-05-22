@@ -20,9 +20,24 @@ public class Items {
 	//Ores
 	public static Item oreCopper;
 	public static Item oreTin;
-	
+	public static Item oreIron;
+	public static Item oreSilver;
+	public static Item oreCoal;
+	public static Item oreGold;
+	public static Item oreMithril;
+	public static Item oreAdamant;
+	public static Item oreRune;
+
 	//Bars
 	public static Item barBronze;
+	public static Item barIron;
+	public static Item barSilver;
+	public static Item barSteel;
+	public static Item barGold;
+	public static Item barMithril;
+	public static Item barAdamant;
+	public static Item barRune;
+
 	
 	//WEAPONS---------------------------------------------------------------------------------------------------------------------------------
 	
@@ -147,9 +162,24 @@ public class Items {
 		//Ores
 		oreCopper = new MineScapeItem(ItemIDs.COPPER_ORE).setUnlocalizedName(ItemStrings.COPPER_ORE_NAME);
 		oreTin = new MineScapeItem(ItemIDs.TIN_ORE).setUnlocalizedName(ItemStrings.TIN_ORE_NAME);
+		oreIron = new MineScapeItem(ItemIDs.IRON_ORE).setUnlocalizedName(ItemStrings.IRON_ORE_NAME);
+		oreSilver = new MineScapeItem(ItemIDs.SILVER_ORE).setUnlocalizedName(ItemStrings.SILVER_ORE_NAME);
+		oreCoal = new MineScapeItem(ItemIDs.COAL_ORE).setUnlocalizedName(ItemStrings.COAL_ORE_NAME);
+		oreGold = new MineScapeItem(ItemIDs.GOLD_ORE).setUnlocalizedName(ItemStrings.GOLD_ORE_NAME);
+		oreMithril = new MineScapeItem(ItemIDs.MITHRIL_ORE).setUnlocalizedName(ItemStrings.MITHRIL_ORE_NAME);
+		oreAdamant = new MineScapeItem(ItemIDs.ADAMANT_ORE).setUnlocalizedName(ItemStrings.ADAMANT_ORE_NAME);
+		oreRune = new MineScapeItem(ItemIDs.RUNE_ORE).setUnlocalizedName(ItemStrings.RUNE_ORE_NAME);
 		
 		//Bars
 		barBronze = new MineScapeItem(ItemIDs.BRONZE_BAR).setUnlocalizedName(ItemStrings.BRONZE_BAR_NAME);
+		barIron = new MineScapeItem(ItemIDs.IRON_BAR).setUnlocalizedName(ItemStrings.IRON_BAR_NAME);
+		barSilver = new MineScapeItem(ItemIDs.SILVER_BAR).setUnlocalizedName(ItemStrings.SILVER_BAR_NAME);
+		barSteel = new MineScapeItem(ItemIDs.STEEL_BAR).setUnlocalizedName(ItemStrings.STEEL_BAR_NAME);
+		barGold = new MineScapeItem(ItemIDs.GOLD_BAR).setUnlocalizedName(ItemStrings.GOLD_BAR_NAME);
+		barMithril = new MineScapeItem(ItemIDs.MITHRIL_BAR).setUnlocalizedName(ItemStrings.MITHRIL_BAR_NAME);
+		barAdamant = new MineScapeItem(ItemIDs.ADAMANT_BAR).setUnlocalizedName(ItemStrings.ADAMANT_BAR_NAME);
+		barRune = new MineScapeItem(ItemIDs.RUNE_BAR).setUnlocalizedName(ItemStrings.RUNE_BAR_NAME);
+
 		
 		//WEAPONS------------------------------------------------------------------------------------------------------------------------------
 		
@@ -265,6 +295,7 @@ public class Items {
 		clawsDragon = new MineScapeClaws(ItemIDs.DRAGON_CLAWS, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_CLAWS_NAME);
 		twoHDragon = new MineScapeTwoHSword(ItemIDs.DRAGON_TWOH, MineScapeMaterials.DRAGON).setUnlocalizedName(ItemStrings.DRAGON_TWOH_NAME);
 		
+		
 		//Item Names============================================================================================================================
 		
 		//MINING AND SMELTING---------------------------------------------------------------------------------------------------------------
@@ -272,10 +303,24 @@ public class Items {
 		//Ores
 		LanguageRegistry.addName(oreCopper, ItemStrings.COPPER_ORE_TRANSNAME);
 		LanguageRegistry.addName(oreTin, ItemStrings.TIN_ORE_TRANSNAME);
+		LanguageRegistry.addName(oreIron, ItemStrings.IRON_ORE_TRANSNAME);
+		LanguageRegistry.addName(oreSilver, ItemStrings.SILVER_ORE_TRANSNAME);
+		LanguageRegistry.addName(oreCoal, ItemStrings.COAL_ORE_TRANSNAME);
+		LanguageRegistry.addName(oreGold, ItemStrings.GOLD_ORE_TRANSNAME);
+		LanguageRegistry.addName(oreMithril, ItemStrings.MITHRIL_ORE_TRANSNAME);
+		LanguageRegistry.addName(oreAdamant, ItemStrings.ADAMANT_ORE_TRANSNAME);
+		LanguageRegistry.addName(oreRune, ItemStrings.RUNE_ORE_TRANSNAME);
 
 		//Bars
 		LanguageRegistry.addName(barBronze, ItemStrings.BRONZE_BAR_TRANSNAME);
-	
+		LanguageRegistry.addName(barIron, ItemStrings.IRON_BAR_TRANSNAME);
+		LanguageRegistry.addName(barSilver, ItemStrings.SILVER_BAR_TRANSNAME);
+		LanguageRegistry.addName(barSteel, ItemStrings.STEEL_BAR_TRANSNAME);
+		LanguageRegistry.addName(barGold, ItemStrings.GOLD_BAR_TRANSNAME);
+		LanguageRegistry.addName(barMithril, ItemStrings.MITHRIL_BAR_TRANSNAME);
+		LanguageRegistry.addName(barAdamant, ItemStrings.ADAMANT_BAR_TRANSNAME);
+		LanguageRegistry.addName(barRune, ItemStrings.RUNE_BAR_TRANSNAME);
+
 		//WEAPONS----------------------------------------------------------------------------------------------------------------------------
 		
 		//Bronze Melee Weapons
