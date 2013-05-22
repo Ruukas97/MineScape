@@ -1,0 +1,11 @@
+[
+{
+  "modid": "minescape",
+  "name": "MineScape",
+  "description": "Runescape in Minecraft",
+  "version": "@VERSION@",
+  "credits": "People :P",
+  "mcversion": "1.5.2",
+  "authors": "GamingTutsDK",
+}
+]
