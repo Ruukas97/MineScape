@@ -25,6 +25,9 @@ public class BlockStrings
 	
 	//Decoration
 	
+	//Skill Blocks
+	public static final String COURSE_PLANK_NAME = "coursePlank";
+	
 	//Functional
 	public static final String FURNACE_NAME = "furnace";
 	public static final String ANVIL_NAME = "anvil";
@@ -51,6 +54,9 @@ public class BlockStrings
 	public static final String MINED_RUNE_TRANSNAME = "Mined Runite";
 	
 	//Decoration
+	
+	//Skill Blocks
+	public static final String COURSE_PLANK_TRANSNAME = "Course Plank";
 	
 	//Functional
 	public static final String FURNACE_TRANSNAME = "Furnace";

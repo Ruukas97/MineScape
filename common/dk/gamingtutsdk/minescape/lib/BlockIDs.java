@@ -25,9 +25,12 @@ public class BlockIDs
 
 	//Decoration
 	
+	//Skill Blocks
+	public static int COURSE_PLANK_DEFAULT = BLOCK_DEFAULT + 18;
+	
 	//Functional
-	public static int FURNACE_DEFAULT = BLOCK_DEFAULT + 18;
-	public static int ANVIL_DEFAULT = BLOCK_DEFAULT + 19;
+	public static int FURNACE_DEFAULT = BLOCK_DEFAULT + 19;
+	public static int ANVIL_DEFAULT = BLOCK_DEFAULT + 20;
 	
 	//Ores
 	public static int ORE_COPPER;
@@ -50,6 +53,9 @@ public class BlockIDs
 	public static int MINED_RUNE;
 	
 	//Decoration
+	
+	//Skill Blocks
+	public static int COURSE_PLANK;
 	
 	//Functional
 	public static int FURNACE;

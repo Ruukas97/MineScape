@@ -40,7 +40,9 @@ public class Blocks
 
 	//Decoration
 	
-	
+	//Skill Blocks
+	public static Block coursePlank;
+
 	//Functional
 	public static Block furnace;
 	public static Block anvil;
@@ -71,11 +73,16 @@ public class Blocks
 
 		//Decoration TODO
 		
+		//Skill Blocks
+		coursePlank = new MineScapeCourse(BlockIDs.COURSE_PLANK, Material.wood).setHardness(3.5F).setStepSound(Block.soundWoodFootstep).setUnlocalizedName(BlockStrings.COURSE_PLANK_NAME);
 		
 		//Functional
 		furnace = new MineScapeFurnace(BlockIDs.FURNACE, Material.rock).setHardness(3.5F).setStepSound(Block.soundStoneFootstep).setLightValue(1F).setUnlocalizedName(BlockStrings.FURNACE_NAME);
 		anvil = new MineScapeAnvil(BlockIDs.ANVIL, Material.anvil).setHardness(3.5F).setStepSound(Block.soundMetalFootstep).setUnlocalizedName(BlockStrings.ANVIL_NAME);
 
+		
+		//REGISTER ORES=================================================================================================================================================================
+		
 		//Ores
 		GameRegistry.registerBlock(oreCopper);
 		GameRegistry.registerBlock(minedCopper);
@@ -97,6 +104,9 @@ public class Blocks
 		GameRegistry.registerBlock(minedRune);
 		
 		//Decoration
+		
+		//Skill BLocks
+		GameRegistry.registerBlock(coursePlank);
 		
 		//Functional
 		GameRegistry.registerBlock(furnace);
@@ -137,6 +147,9 @@ public class Blocks
 
 		
 		//Decoration
+		
+		//SKill Blocks
+		LanguageRegistry.addName(coursePlank, BlockStrings.COURSE_PLANK_TRANSNAME);
 		
 		//Functional
 		LanguageRegistry.addName(furnace, BlockStrings.FURNACE_TRANSNAME);

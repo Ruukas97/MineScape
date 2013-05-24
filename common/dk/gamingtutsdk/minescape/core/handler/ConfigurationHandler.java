@@ -183,6 +183,9 @@ public class ConfigurationHandler {
 			
 			//Decoration
 			
+			//Skill Blocks
+			BlockIDs.COURSE_PLANK = config.getBlock(BlockStrings.COURSE_PLANK_TRANSNAME, BlockIDs.COURSE_PLANK_DEFAULT).getInt();
+
 			//Functional
 			BlockIDs.FURNACE = config.getBlock(BlockStrings.FURNACE_TRANSNAME, BlockIDs.FURNACE_DEFAULT).getInt();
 			BlockIDs.ANVIL = config.getBlock(BlockStrings.ANVIL_TRANSNAME, BlockIDs.ANVIL_DEFAULT).getInt();

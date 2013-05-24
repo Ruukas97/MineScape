@@ -16,10 +16,10 @@ public class MineScapeMaterials
 	public static EnumToolMaterial DRAGON = EnumHelper.addToolMaterial("DRAGON", 13, 1, 10.0F, 8, 1);
 }
 
-/**Vanilla materials
+/*Vanilla materials
  *  WOOD(0, 59, 2.0F, 0, 15),
  *  STONE(1, 131, 4.0F, 1, 5),
  *  IRON(2, 250, 6.0F, 2, 14),
  *  EMERALD(3, 1561, 8.0F, 3, 10),
  *  GOLD(0, 32, 12.0F, 0, 22);
-**/
+*/
